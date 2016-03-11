@@ -1,0 +1,12 @@
+<CiscoIPPhoneMenu>
+<Title>LTLGS Phone Directory</Title>
+<Prompt>Choose an option...</Prompt>
+<MenuItem>
+<Name>Browse Directory</Name>
+<URL>http://195.0.9.230/directory/spadir.php</URL>
+</MenuItem>
+<MenuItem>
+<Name>Search Directory</Name>
+<URL>http://195.0.9.230/directory/spadirsearch.xml</URL>
+</MenuItem>
+</CiscoIPPhoneMenu>
