@@ -1,0 +1,10 @@
+<CiscoIPPhoneInput>
+  <Title>Directory Search</Title> 
+  <Prompt>Enter a search term...</Prompt>
+  <URL>http://YOURIPHERE/directory/spadirsearchresults.php?mac=$MA</URL> 
+<InputItem>
+  <DisplayName>Name</DisplayName> 
+  <QueryStringParam>name</QueryStringParam> 
+  <InputFlags>L</InputFlags> 
+  </InputItem>
+ </CiscoIPPhoneInput>
