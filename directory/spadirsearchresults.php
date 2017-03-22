@@ -16,7 +16,7 @@ $endoflist = False;
 // XML Output Below
 header ("content-type: text/xml");
 
-
+if ($numrows >=1) {
 echo "<CiscoIPPhoneDirectory>\n";
 echo "<Title>PBX Directory</Title>\n";
 echo "<Prompt>Select a User</Prompt>\n";
@@ -97,6 +97,13 @@ if ($numrows >=32) {
 	}
 }    
 echo "</CiscoIPPhoneDirectory>\n";
+} else {
+	echo "<CiscoIPPhoneText>\n";
+	echo "<Title>PBX Directory</Title>\n";
+	echo "<Prompt>Search results</Prompt>\n";
+	echo "<Text>Unfortunately no results have been found. Please go back and modify your search term.</Text>\n";
+	echo "</CiscoIPPhoneText>\n";
+	}
        
 //END
 ?>
